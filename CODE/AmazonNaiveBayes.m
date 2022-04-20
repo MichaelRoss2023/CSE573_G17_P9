@@ -2,9 +2,7 @@
 % Using the data from https://github.com/YingtongDou/CARE-GNN
 clear
 load('Amazon.mat')
-% This dataset has 4 sets: homo, net_upu, net_usu, and net_uvu
-% In order to combine these sets, we will add them.
-%X = transpose(homo)+transpose(net_upu)+transpose(net_usu)+transpose(net_uvu);
+
 X = full(features);
 Y = full(label);
 rng('shuffle')
