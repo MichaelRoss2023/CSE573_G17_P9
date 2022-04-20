@@ -1,5 +1,5 @@
 # CSE573_G17_P9
-Repository for the demo of CSE573 for ASU
+Repository for the demo of Fraud Detection using Graph Databases and Machine Learning in CSE573 for ASU
 
 The CODE sub-directory holds the code of the different traditional and state of the art methods used in our project.
 
